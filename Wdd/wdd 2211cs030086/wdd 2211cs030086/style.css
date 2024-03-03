@@ -1,0 +1,36 @@
+header h1{
+    text-align: center;
+}
+
+main{
+    background-color: cyan;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    padding: 1.2rem;
+    border-radius: 5%;
+}
+body{
+    background-color: lightgreen;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.2rem;
+    text-align: center;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.display p{
+    background-color: #f9f9b5;
+    width: 80%;
+    height: 1rem;
+    border: 2px solid black;
+    
+}
+
+.buttons button{
+    width: 100%;
+}
